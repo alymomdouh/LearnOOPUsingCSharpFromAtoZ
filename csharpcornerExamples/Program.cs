@@ -72,4 +72,9 @@ Console.WriteLine("****************");
 electric el = new electric();
 Console.WriteLine("****************");
 Console.ReadKey();
+// Abstract Methods
+Netpay o = new Netpay();
+o.CalculatePay();
+Console.WriteLine("Officer Grad II pay = {0} \nOfficer Grad I pay = {1}", o.gradtwo, o.gradone);
+Console.ReadKey();
 Console.ReadLine();
