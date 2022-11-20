@@ -53,5 +53,11 @@ Console.Read();
 CarStatic.Drive();
 CarStatic.Drive();
 Console.ReadKey();
+// test Polymorphism
+CarPolymorphism cr = new CarPolymorphism();
+cr.CarDetail();
+cr.CarDetail(2200000);
+cr.CarDetail(2200000, "White");
+Console.ReadKey();
 
 Console.ReadLine();
