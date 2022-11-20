@@ -64,5 +64,12 @@ cr.CarDetail();
 cr.CarDetail(2200000);
 cr.CarDetail(2200000, "White");
 Console.ReadKey();
-
+//test Inheritance 
+truck tr = new truck();
+Console.WriteLine("****************");
+petrol pr = new petrol();
+Console.WriteLine("****************");
+electric el = new electric();
+Console.WriteLine("****************");
+Console.ReadKey();
 Console.ReadLine();
