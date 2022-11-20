@@ -53,6 +53,11 @@ Console.Read();
 CarStatic.Drive();
 CarStatic.Drive();
 Console.ReadKey();
+//
+CarEncapsulation crx = new CarEncapsulation("Naveed Zaman", "002020-1", 5000, 16.5);
+crx.disbursement = 6999;
+crx.display();
+Console.ReadKey();
 // test Polymorphism
 CarPolymorphism cr = new CarPolymorphism();
 cr.CarDetail();
