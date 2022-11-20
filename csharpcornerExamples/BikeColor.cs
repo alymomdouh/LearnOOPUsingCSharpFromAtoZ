@@ -13,5 +13,9 @@
             get { return this.MyBikeColor; }
             set { this.MyBikeColor = value; }
         }
+        ~BikeColor()
+        {
+            // Destructor
+        }
     }
 }
